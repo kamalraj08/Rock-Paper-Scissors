@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors - Winner</title>
+    <link rel="stylesheet" href="winner.css">
+    <script src="winner.js" defer></script>
+</head>
+<body>
+    <div id="winner-screen">
+        <img src="star.png" alt="star">
+        <img class="trophy" src="trophy.png" alt="trophy">
+        <h1>HURRAY!!</h1>
+        <p>YOU WON THE GAME</p>
+        <button id="winner-play-again">PLAY AGAIN</button>
+    </div>
+    <div class="rules-btn" onclick="showRules()">RULES</div>
+    <div id="content" class="rules">
+        <div id="content"class="rules-container">
+            <header class="rules-header">
+                <h2 class="rules-heading">Game Rules</h2>
+                <ul class="list">
+                    <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                    <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                    <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                    <li>If both players lay down the same hand, each player lays down another hand</li>
+                </ul>
+            </header>
+        </div>
+    </div>
+    <button id="hideButton" class="close-btn" onclick="hideContent()">X</button>
+    
+</body>
+</html>
